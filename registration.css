@@ -1,0 +1,62 @@
+body
+{
+    margin: 0;
+    background-color: #263238;
+    
+    
+}
+
+.user-container
+{
+    height: 600px;
+    width: 450px;
+    border: 2px solid #23B123;
+    background-image: url(https://wallpaperaccess.com/full/2753329.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translateY(-50%);
+    display:grid;
+
+
+}
+
+label
+{
+    color:#23B123;
+    font-size: 18px;
+}
+
+input
+{
+    background-color:#263238;
+    color:white;
+    font-size: 16px;
+    border: none;
+    
+}
+
+.error-text
+{
+    color: red;
+}
+
+button
+{
+    background-color: #263238;
+    color: #23B123;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover
+{
+    color: white;
+    background-color: #23B123;
+}
+
